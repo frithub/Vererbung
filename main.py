@@ -6,7 +6,7 @@ class FileReader():
         lines = []
         with open(self.filename, "r") as file:
             for line in file:
-                lines.append(line.strip())
+                lines.append(line)
         return lines
 
 
